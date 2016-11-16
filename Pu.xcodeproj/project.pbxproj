@@ -12,6 +12,11 @@
 		FC91173D1DDC46F0000BBDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC91173B1DDC46F0000BBDF6 /* Main.storyboard */; };
 		FC91173F1DDC46F0000BBDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC91173E1DDC46F0000BBDF6 /* Assets.xcassets */; };
 		FC9117421DDC46F0000BBDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9117401DDC46F0000BBDF6 /* LaunchScreen.storyboard */; };
+		FC91174A1DDC4732000BBDF6 /* conch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9117491DDC4732000BBDF6 /* conch.png */; };
+		FC91174F1DDC4740000BBDF6 /* pu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC91174B1DDC4740000BBDF6 /* pu1.mp3 */; };
+		FC9117501DDC4740000BBDF6 /* pu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC91174C1DDC4740000BBDF6 /* pu2.mp3 */; };
+		FC9117511DDC4740000BBDF6 /* pu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC91174D1DDC4740000BBDF6 /* pu3.mp3 */; };
+		FC9117521DDC4740000BBDF6 /* pu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC91174E1DDC4740000BBDF6 /* pu4.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FC91173E1DDC46F0000BBDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9117411DDC46F0000BBDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC9117431DDC46F0000BBDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9117491DDC4732000BBDF6 /* conch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = conch.png; path = ../conch.png; sourceTree = "<group>"; };
+		FC91174B1DDC4740000BBDF6 /* pu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu1.mp3; path = "../../../Downloads/pu-master 2/pu1.mp3"; sourceTree = "<group>"; };
+		FC91174C1DDC4740000BBDF6 /* pu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu2.mp3; path = "../../../Downloads/pu-master 2/pu2.mp3"; sourceTree = "<group>"; };
+		FC91174D1DDC4740000BBDF6 /* pu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu3.mp3; path = "../../../Downloads/pu-master 2/pu3.mp3"; sourceTree = "<group>"; };
+		FC91174E1DDC4740000BBDF6 /* pu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu4.mp3; path = "../../../Downloads/pu-master 2/pu4.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		FC91172B1DDC46F0000BBDF6 = {
 			isa = PBXGroup;
 			children = (
+				FC9117491DDC4732000BBDF6 /* conch.png */,
 				FC9117361DDC46F0000BBDF6 /* Pu */,
 				FC9117351DDC46F0000BBDF6 /* Products */,
 			);
@@ -54,6 +65,10 @@
 		FC9117361DDC46F0000BBDF6 /* Pu */ = {
 			isa = PBXGroup;
 			children = (
+				FC91174B1DDC4740000BBDF6 /* pu1.mp3 */,
+				FC91174C1DDC4740000BBDF6 /* pu2.mp3 */,
+				FC91174D1DDC4740000BBDF6 /* pu3.mp3 */,
+				FC91174E1DDC4740000BBDF6 /* pu4.mp3 */,
 				FC9117371DDC46F0000BBDF6 /* AppDelegate.swift */,
 				FC9117391DDC46F0000BBDF6 /* ViewController.swift */,
 				FC91173B1DDC46F0000BBDF6 /* Main.storyboard */,
@@ -124,9 +139,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9117501DDC4740000BBDF6 /* pu2.mp3 in Resources */,
+				FC9117511DDC4740000BBDF6 /* pu3.mp3 in Resources */,
+				FC91174F1DDC4740000BBDF6 /* pu1.mp3 in Resources */,
 				FC9117421DDC46F0000BBDF6 /* LaunchScreen.storyboard in Resources */,
 				FC91173F1DDC46F0000BBDF6 /* Assets.xcassets in Resources */,
 				FC91173D1DDC46F0000BBDF6 /* Main.storyboard in Resources */,
+				FC9117521DDC4740000BBDF6 /* pu4.mp3 in Resources */,
+				FC91174A1DDC4732000BBDF6 /* conch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 84TLW33V3V;
 				INFOPLIST_FILE = Pu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taylorfinley.Pu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 84TLW33V3V;
 				INFOPLIST_FILE = Pu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taylorfinley.Pu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
