@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pu.xcodeproj">
+      location = "self:../Pu/pu1.mp3">
    </FileRef>
 </Workspace>

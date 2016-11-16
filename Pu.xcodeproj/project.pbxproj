@@ -27,11 +27,11 @@
 		FC91173E1DDC46F0000BBDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9117411DDC46F0000BBDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC9117431DDC46F0000BBDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC9117491DDC4732000BBDF6 /* conch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = conch.png; path = ../conch.png; sourceTree = "<group>"; };
-		FC91174B1DDC4740000BBDF6 /* pu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu1.mp3; path = "../../../Downloads/pu-master 2/pu1.mp3"; sourceTree = "<group>"; };
-		FC91174C1DDC4740000BBDF6 /* pu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu2.mp3; path = "../../../Downloads/pu-master 2/pu2.mp3"; sourceTree = "<group>"; };
-		FC91174D1DDC4740000BBDF6 /* pu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu3.mp3; path = "../../../Downloads/pu-master 2/pu3.mp3"; sourceTree = "<group>"; };
-		FC91174E1DDC4740000BBDF6 /* pu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pu4.mp3; path = "../../../Downloads/pu-master 2/pu4.mp3"; sourceTree = "<group>"; };
+		FC9117491DDC4732000BBDF6 /* conch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conch.png; sourceTree = SOURCE_ROOT; };
+		FC91174B1DDC4740000BBDF6 /* pu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pu1.mp3; sourceTree = SOURCE_ROOT; };
+		FC91174C1DDC4740000BBDF6 /* pu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pu2.mp3; sourceTree = SOURCE_ROOT; };
+		FC91174D1DDC4740000BBDF6 /* pu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pu3.mp3; sourceTree = SOURCE_ROOT; };
+		FC91174E1DDC4740000BBDF6 /* pu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pu4.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
